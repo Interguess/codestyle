@@ -26,13 +26,21 @@ Issues are categorized with appropriate tags to indicate which tool should be us
 
 ### 🚀 Quick Start
 
-1. **Reporting Issues**: Use the appropriate issue template:
+1. **Setup Labels** (Repository Administrators):
+   ```bash
+   ./setup-labels.sh
+   ```
+   This script creates all necessary labels for the categorization system.
+
+2. **Reporting Issues**: Use the appropriate issue template:
    - [PMD Issue Template](.github/ISSUE_TEMPLATE/pmd-issue.md) for code quality issues
    - [Checkstyle Issue Template](.github/ISSUE_TEMPLATE/checkstyle-issue.md) for style issues
 
-2. **Categorizing Issues**: Follow the [categorization guide](ISSUE_CATEGORIZATION.md) to properly tag issues
+3. **Categorizing Issues**: Follow the [categorization guide](ISSUE_CATEGORIZATION.md) to properly tag issues
 
-3. **Resolution**: Use the recommended tool based on the issue tags and category
+4. **Quick Decisions**: Use the [Quick Reference](QUICK_REFERENCE.md) for fast categorization
+
+5. **Resolution**: Use the recommended tool based on the issue tags and category
 
 ### 🏷️ Available Tags
 
